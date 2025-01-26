@@ -96,6 +96,16 @@ h3 {
     text-align: center;
 }
 
+/* create post page*/
+
+.new-post form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 /*Survey Page*/
 
 form {

@@ -30,6 +30,9 @@ app.get("/Survey", (req,res) => {
     res.render("Survey")
 })
 
+app.get("/new-post", (req,res) => {
+    res.render("new-post")
+})
 //404 Not Found
 
 app.use((req,res) => {  
