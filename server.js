@@ -29,3 +29,9 @@ app.get("/about", (req,res) =>{
 app.get("/Survey", (req,res) => {
     res.render("Survey")
 })
+
+//404 Not Found
+
+app.use((req,res) => {  
+    res.status(404).render("404");
+})
