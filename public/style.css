@@ -96,6 +96,25 @@ h3 {
     text-align: center;
 }
 
+/*Survey Page*/
+
+form {
+    border: 1px solid black; 
+    width: 100%
+   } 
+
+   button {
+    margin:5px
+   }
+
+  /*Footer*/
+   
+  footer{
+    color: white; 
+    text-align: center;
+    background-color: #241205;
+  }
+
 /*utility class */
 
 .blackBorder {

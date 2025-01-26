@@ -1,27 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey</title>
-    <style>
-       form {
-        border: 1px solid black; 
-        width: 12%
-       } 
+    <%- include("./partials/head.ejs") %>
 
-       button {
-        margin:5px
-       }
-        
-    </style>
-</head>
 <body>
-    <nav>
-        <a href="home.html" >Home</a> 
-        <a href="about.html" >About</a> 
-        <a>Contact Us</a>
-     </nav>
+    <%- include("./partials/nav.ejs") %>
+
      <section>
         <h2>How did you hear about us?</h2>
         <form>
@@ -39,5 +22,6 @@
         </form>
         <button><a href="home.html">Submit</a></button>
      </section>
+     <%- include("./partials/foot.ejs") %>
 </body>
 </html>

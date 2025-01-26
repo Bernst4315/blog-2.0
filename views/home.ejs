@@ -1,27 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Botanical Enthusiast</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+
+<%- include("./partials/head.ejs") %>
 
   <body>
     <!-- top Section of Website -->
-    <section class="blackBorder header">
-      <!-- head of my website -->
-      <header class="title">
-        <h1>The Botanical Enthusiast</h1>
-      </header>
 
-      <!-- Navigation -->
-      <nav class="blackBorder navbar">
-        <a href="home.html">Home</a>
-        <a href="/about">About</a>
-        <a href="home.html">Contact</a>
-      </nav>
-    </section>
+    <%- include("./partials/nav.ejs") %>
 
     <!-- Blog Post Section -->
     <section id="blogBody">
@@ -133,19 +118,13 @@
           <label for="weekly">Weekly</label>
           <input type="radio" name="timeform" value="monthly" id="monthly" />
           <label for="monthly">Monthly</label>
-          <button><a href="Survey.html">Enter</a></button>
+          <button><a href="/Survey">Enter</a></button>
         </form>
-        <!-- <p>
-          Support us and <br />
-          become a Member
-        </p>
-        <a>Create new account</a> -->
+      
       </aside>
     </section>
 
     <!-- Footer -->
-    <footer class="blackBorder" style="background-color: #241205;">
-      <p style="color: white; text-align: center;">Copyright 2024</p>
-    </footer>
+    <%- include("./partials/foot.ejs") %>
   </body>
 </html>
