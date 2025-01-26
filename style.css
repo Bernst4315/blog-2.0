@@ -1,0 +1,104 @@
+body{
+    background-color: #e4dcca;
+}
+
+/* Top of website styling */
+
+.header{
+    position: sticky; 
+    top: 0px;
+    background-color: #8eac84;
+    text-align: center; 
+}
+
+.title{
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #241205;
+    font-size: 24px;
+       
+}
+
+.navbar a{
+    text-decoration: none;
+    color: wheat; 
+}
+
+/*Content section*/
+
+#blogBody {
+    display: flex;
+    width: 100%;
+    padding: 10px; 
+    flex-direction: row-reverse;
+}
+
+
+
+img {
+    width: 300px;
+    margin: 10;
+}
+
+.post {
+   flex: 1;
+}
+
+.bpost {
+    display: flex;
+
+}
+
+/*Side Bar*/
+
+table, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.sidebar, .post, .posts{
+    padding: 10px; 
+}
+
+/*About page*/
+
+.card {
+    width: 50%;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-around; 
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 10px solid #241205;
+    color: #2b2839; 
+    background-color: #8eac84;
+}
+
+.profile-img {
+    width: 150px;   
+}
+
+.about {
+    width: 50%;
+    padding: 20px; 
+    margin: 0 auto;
+    text-align: left;
+    border-bottom: 10px solid #241205;
+    color: #2b2839; 
+    background-color: #E4DCCA;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*utility class */
+
+.blackBorder {
+    border: 1px solid black;  
+  }
+
