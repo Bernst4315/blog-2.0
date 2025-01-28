@@ -33,6 +33,21 @@ app.get("/Survey", (req,res) => {
 app.get("/new-post", (req,res) => {
     res.render("new-post")
 })
+
+app.post("/", (req,res) =>{
+    console.log("POST Made")
+    res.send("hello").status("200")
+})
+
+app.delete("/", (req,res) => {
+    console.log("Delete Succesfull")
+    res.send("delete").status("200")
+})
+
+app.patch("/", (req,res) => {
+    console.log("edit Succesfull")
+    res.send("edit").status("200")
+})
 //404 Not Found
 
 app.use((req,res) => {  
